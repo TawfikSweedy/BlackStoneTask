@@ -1,0 +1,6 @@
+framework module Pods_BlackStoneTask {
+  umbrella header "Pods-BlackStoneTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

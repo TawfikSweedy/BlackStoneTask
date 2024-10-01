@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (5.9.1)
+  - lottie-ios (4.5.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - PromiseKit (8.1.2):
+    - PromiseKit/CorePromise (= 8.1.2)
+    - PromiseKit/Foundation (= 8.1.2)
+    - PromiseKit/UIKit (= 8.1.2)
+  - PromiseKit/CorePromise (8.1.2)
+  - PromiseKit/Foundation (8.1.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (8.1.2):
+    - PromiseKit/CorePromise
+  - SDWebImage (5.19.7):
+    - SDWebImage/Core (= 5.19.7)
+  - SDWebImage/Core (5.19.7)
+  - SPIndicator (1.6.4)
+
+DEPENDENCIES:
+  - lottie-ios
+  - Moya
+  - PromiseKit
+  - SDWebImage
+  - SPIndicator
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - lottie-ios
+    - Moya
+    - PromiseKit
+    - SDWebImage
+    - SPIndicator
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  lottie-ios: a881093fab623c467d3bce374367755c272bdd59
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  PromiseKit: e057b5b3c0ce9a0145674d633930924234104ee3
+  SDWebImage: 8a6b7b160b4d710e2a22b6900e25301075c34cb3
+  SPIndicator: 93e0a4fb23de51294ac48e874c0f081a5e293e4f
+
+PODFILE CHECKSUM: 246808c53a481b545de76551529fc24bcfe4ada6
+
+COCOAPODS: 1.15.2

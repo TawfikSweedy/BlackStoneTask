@@ -7,23 +7,143 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2DA629CBB95EBE2029AD6F /* Pods_BlackStoneTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131B1A51BCDF30EA4626100D /* Pods_BlackStoneTask.framework */; };
 		70DBDB122CAB00C700986173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB112CAB00C700986173 /* AppDelegate.swift */; };
 		70DBDB142CAB00C700986173 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB132CAB00C700986173 /* SceneDelegate.swift */; };
-		70DBDB162CAB00C700986173 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB152CAB00C700986173 /* ViewController.swift */; };
 		70DBDB192CAB00C700986173 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB182CAB00C700986173 /* Base */; };
 		70DBDB1B2CAB00C900986173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB1A2CAB00C900986173 /* Assets.xcassets */; };
 		70DBDB1E2CAB00C900986173 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB1D2CAB00C900986173 /* Base */; };
+		70DBDB472CAB05E100986173 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB282CAB05E000986173 /* IQNSArray+Sort.swift */; };
+		70DBDB482CAB05E100986173 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB292CAB05E000986173 /* IQUIScrollView+Additions.swift */; };
+		70DBDB492CAB05E100986173 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB2A2CAB05E000986173 /* IQUITextFieldView+Additions.swift */; };
+		70DBDB4A2CAB05E100986173 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB2B2CAB05E000986173 /* IQUIView+Hierarchy.swift */; };
+		70DBDB4B2CAB05E100986173 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB2C2CAB05E000986173 /* IQUIViewController+Additions.swift */; };
+		70DBDB4C2CAB05E100986173 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB2E2CAB05E000986173 /* IQKeyboardManagerConstants.swift */; };
+		70DBDB4D2CAB05E100986173 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB2F2CAB05E000986173 /* IQKeyboardManagerConstantsInternal.swift */; };
+		70DBDB4E2CAB05E100986173 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB312CAB05E000986173 /* IQTextView.swift */; };
+		70DBDB4F2CAB05E100986173 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB332CAB05E000986173 /* IQBarButtonItem.swift */; };
+		70DBDB502CAB05E100986173 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB342CAB05E000986173 /* IQInvocation.swift */; };
+		70DBDB512CAB05E100986173 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB352CAB05E000986173 /* IQPreviousNextView.swift */; };
+		70DBDB522CAB05E100986173 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB362CAB05E000986173 /* IQTitleBarButtonItem.swift */; };
+		70DBDB532CAB05E100986173 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB372CAB05E000986173 /* IQToolbar.swift */; };
+		70DBDB542CAB05E100986173 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB382CAB05E000986173 /* IQUIView+IQKeyboardToolbar.swift */; };
+		70DBDB552CAB05E100986173 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB3A2CAB05E000986173 /* IQKeyboardManager.swift */; };
+		70DBDB562CAB05E100986173 /* IQKeyboardManager+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB3B2CAB05E000986173 /* IQKeyboardManager+Debug.swift */; };
+		70DBDB572CAB05E100986173 /* IQKeyboardManager+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB3C2CAB05E000986173 /* IQKeyboardManager+Internal.swift */; };
+		70DBDB582CAB05E100986173 /* IQKeyboardManager+OrientationNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB3D2CAB05E000986173 /* IQKeyboardManager+OrientationNotification.swift */; };
+		70DBDB592CAB05E100986173 /* IQKeyboardManager+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB3E2CAB05E000986173 /* IQKeyboardManager+Position.swift */; };
+		70DBDB5A2CAB05E100986173 /* IQKeyboardManager+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB3F2CAB05E000986173 /* IQKeyboardManager+Toolbar.swift */; };
+		70DBDB5B2CAB05E100986173 /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB402CAB05E000986173 /* IQKeyboardManager+UIKeyboardNotification.swift */; };
+		70DBDB5C2CAB05E100986173 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB412CAB05E000986173 /* IQKeyboardManager+UITextFieldViewNotification.swift */; };
+		70DBDB5D2CAB05E100986173 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB422CAB05E000986173 /* IQKeyboardReturnKeyHandler.swift */; };
+		70DBDB5E2CAB05E100986173 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB452CAB05E100986173 /* AlertPresenter.swift */; };
+		70DBDB5F2CAB05E100986173 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB462CAB05E100986173 /* Loading.swift */; };
+		70DBDB632CAB061600986173 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB602CAB061600986173 /* SearchTableViewCell.swift */; };
+		70DBDB642CAB061600986173 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB612CAB061600986173 /* SearchTableViewCell.xib */; };
+		70DBDB672CAB07E500986173 /* UITableView+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB662CAB07E500986173 /* UITableView+Extenstions.swift */; };
+		70DBDB692CAB080D00986173 /* UIView+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB682CAB080D00986173 /* UIView+Extenstions.swift */; };
+		70DBDB732CAB089C00986173 /* BGConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB6D2CAB089B00986173 /* BGConstants.swift */; };
+		70DBDB742CAB089C00986173 /* BGServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB6E2CAB089C00986173 /* BGServicesManager.swift */; };
+		70DBDB752CAB089C00986173 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB6F2CAB089C00986173 /* URLRequestBuilder.swift */; };
+		70DBDB762CAB089C00986173 /* BGDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB702CAB089C00986173 /* BGDecoder.swift */; };
+		70DBDB772CAB089C00986173 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB712CAB089C00986173 /* EndPoints.swift */; };
+		70DBDB782CAB089C00986173 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB722CAB089C00986173 /* Services.swift */; };
+		70DBDB7C2CAB091F00986173 /* ForeCastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB792CAB091F00986173 /* ForeCastModel.swift */; };
+		70DBDB7D2CAB091F00986173 /* searchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB7A2CAB091F00986173 /* searchModel.swift */; };
+		70DBDB8A2CAB09C500986173 /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB7F2CAB09C500986173 /* loader.json */; };
+		70DBDB8B2CAB09C500986173 /* SFPRODISPLAYBLACKITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB802CAB09C500986173 /* SFPRODISPLAYBLACKITALIC.OTF */; };
+		70DBDB8C2CAB09C500986173 /* SFPRODISPLAYBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB812CAB09C500986173 /* SFPRODISPLAYBOLD.OTF */; };
+		70DBDB8D2CAB09C500986173 /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB822CAB09C500986173 /* SFPRODISPLAYHEAVYITALIC.OTF */; };
+		70DBDB8E2CAB09C500986173 /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB832CAB09C500986173 /* SFPRODISPLAYLIGHTITALIC.OTF */; };
+		70DBDB8F2CAB09C500986173 /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB842CAB09C500986173 /* SFPRODISPLAYMEDIUM.OTF */; };
+		70DBDB902CAB09C500986173 /* SFPRODISPLAYREGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB852CAB09C500986173 /* SFPRODISPLAYREGULAR.OTF */; };
+		70DBDB912CAB09C500986173 /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB862CAB09C500986173 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */; };
+		70DBDB922CAB09C500986173 /* SFPRODISPLAYTHINITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB872CAB09C500986173 /* SFPRODISPLAYTHINITALIC.OTF */; };
+		70DBDB932CAB09C500986173 /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDB882CAB09C500986173 /* SFPRODISPLAYULTRALIGHTITALIC.OTF */; };
+		70DBDB992CAB0AF500986173 /* WeatherHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB962CAB0AF500986173 /* WeatherHomeViewController.swift */; };
+		70DBDBA02CAB62CF00986173 /* WeatherHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDB9F2CAB62CF00986173 /* WeatherHomeInteractor.swift */; };
+		70DBDBA22CAB633200986173 /* WeatherHomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDBA12CAB633200986173 /* WeatherHomeProtocols.swift */; };
+		70DBDBA42CAB64DF00986173 /* WeatherHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDBA32CAB64DF00986173 /* WeatherHomeRouter.swift */; };
+		70DBDBA62CAB652D00986173 /* WeatherHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDBA52CAB652D00986173 /* WeatherHomePresenter.swift */; };
+		70DBDBA82CAB65A900986173 /* ErrorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDBA72CAB65A900986173 /* ErrorProtocol.swift */; };
+		70DBDBAA2CAB66B100986173 /* WeatherHomeTableViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDBA92CAB66B100986173 /* WeatherHomeTableViewDelegates.swift */; };
+		70DBDBAD2CAB74B400986173 /* SetStoryBoardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDBAC2CAB74B400986173 /* SetStoryBoardHelper.swift */; };
+		70DBDBB02CAB76F800986173 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDBAF2CAB76F800986173 /* SplashViewController.swift */; };
+		70DBDBB42CAB817D00986173 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDBB22CAB817D00986173 /* DayCollectionViewCell.swift */; };
+		70DBDBB52CAB817D00986173 /* DayCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70DBDBB32CAB817D00986173 /* DayCollectionViewCell.xib */; };
+		70DBDBB72CAB82C900986173 /* WeatherHomeCollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DBDBB62CAB82C900986173 /* WeatherHomeCollectionViewDelegates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131B1A51BCDF30EA4626100D /* Pods_BlackStoneTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackStoneTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DBDB0E2CAB00C700986173 /* BlackStoneTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackStoneTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DBDB112CAB00C700986173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70DBDB132CAB00C700986173 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70DBDB152CAB00C700986173 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70DBDB182CAB00C700986173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70DBDB1A2CAB00C900986173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70DBDB1D2CAB00C900986173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70DBDB1F2CAB00C900986173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DBDB282CAB05E000986173 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		70DBDB292CAB05E000986173 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		70DBDB2A2CAB05E000986173 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		70DBDB2B2CAB05E000986173 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		70DBDB2C2CAB05E000986173 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		70DBDB2E2CAB05E000986173 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		70DBDB2F2CAB05E000986173 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		70DBDB312CAB05E000986173 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		70DBDB332CAB05E000986173 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		70DBDB342CAB05E000986173 /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		70DBDB352CAB05E000986173 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		70DBDB362CAB05E000986173 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		70DBDB372CAB05E000986173 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		70DBDB382CAB05E000986173 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		70DBDB3A2CAB05E000986173 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		70DBDB3B2CAB05E000986173 /* IQKeyboardManager+Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Debug.swift"; sourceTree = "<group>"; };
+		70DBDB3C2CAB05E000986173 /* IQKeyboardManager+Internal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Internal.swift"; sourceTree = "<group>"; };
+		70DBDB3D2CAB05E000986173 /* IQKeyboardManager+OrientationNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+OrientationNotification.swift"; sourceTree = "<group>"; };
+		70DBDB3E2CAB05E000986173 /* IQKeyboardManager+Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Position.swift"; sourceTree = "<group>"; };
+		70DBDB3F2CAB05E000986173 /* IQKeyboardManager+Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Toolbar.swift"; sourceTree = "<group>"; };
+		70DBDB402CAB05E000986173 /* IQKeyboardManager+UIKeyboardNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+UIKeyboardNotification.swift"; sourceTree = "<group>"; };
+		70DBDB412CAB05E000986173 /* IQKeyboardManager+UITextFieldViewNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+UITextFieldViewNotification.swift"; sourceTree = "<group>"; };
+		70DBDB422CAB05E000986173 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		70DBDB452CAB05E100986173 /* AlertPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		70DBDB462CAB05E100986173 /* Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		70DBDB602CAB061600986173 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		70DBDB612CAB061600986173 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		70DBDB662CAB07E500986173 /* UITableView+Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extenstions.swift"; sourceTree = "<group>"; };
+		70DBDB682CAB080D00986173 /* UIView+Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extenstions.swift"; sourceTree = "<group>"; };
+		70DBDB6D2CAB089B00986173 /* BGConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGConstants.swift; sourceTree = "<group>"; };
+		70DBDB6E2CAB089C00986173 /* BGServicesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGServicesManager.swift; sourceTree = "<group>"; };
+		70DBDB6F2CAB089C00986173 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
+		70DBDB702CAB089C00986173 /* BGDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGDecoder.swift; sourceTree = "<group>"; };
+		70DBDB712CAB089C00986173 /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		70DBDB722CAB089C00986173 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		70DBDB792CAB091F00986173 /* ForeCastModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForeCastModel.swift; sourceTree = "<group>"; };
+		70DBDB7A2CAB091F00986173 /* searchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchModel.swift; sourceTree = "<group>"; };
+		70DBDB7F2CAB09C500986173 /* loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader.json; sourceTree = "<group>"; };
+		70DBDB802CAB09C500986173 /* SFPRODISPLAYBLACKITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBLACKITALIC.OTF; sourceTree = "<group>"; };
+		70DBDB812CAB09C500986173 /* SFPRODISPLAYBOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBOLD.OTF; sourceTree = "<group>"; };
+		70DBDB822CAB09C500986173 /* SFPRODISPLAYHEAVYITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYHEAVYITALIC.OTF; sourceTree = "<group>"; };
+		70DBDB832CAB09C500986173 /* SFPRODISPLAYLIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYLIGHTITALIC.OTF; sourceTree = "<group>"; };
+		70DBDB842CAB09C500986173 /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.OTF; sourceTree = "<group>"; };
+		70DBDB852CAB09C500986173 /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.OTF; sourceTree = "<group>"; };
+		70DBDB862CAB09C500986173 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYSEMIBOLDITALIC.OTF; sourceTree = "<group>"; };
+		70DBDB872CAB09C500986173 /* SFPRODISPLAYTHINITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYTHINITALIC.OTF; sourceTree = "<group>"; };
+		70DBDB882CAB09C500986173 /* SFPRODISPLAYULTRALIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYULTRALIGHTITALIC.OTF; sourceTree = "<group>"; };
+		70DBDB962CAB0AF500986173 /* WeatherHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeViewController.swift; sourceTree = "<group>"; };
+		70DBDB9F2CAB62CF00986173 /* WeatherHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeInteractor.swift; sourceTree = "<group>"; };
+		70DBDBA12CAB633200986173 /* WeatherHomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeProtocols.swift; sourceTree = "<group>"; };
+		70DBDBA32CAB64DF00986173 /* WeatherHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeRouter.swift; sourceTree = "<group>"; };
+		70DBDBA52CAB652D00986173 /* WeatherHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomePresenter.swift; sourceTree = "<group>"; };
+		70DBDBA72CAB65A900986173 /* ErrorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorProtocol.swift; sourceTree = "<group>"; };
+		70DBDBA92CAB66B100986173 /* WeatherHomeTableViewDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeTableViewDelegates.swift; sourceTree = "<group>"; };
+		70DBDBAC2CAB74B400986173 /* SetStoryBoardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetStoryBoardHelper.swift; sourceTree = "<group>"; };
+		70DBDBAF2CAB76F800986173 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		70DBDBB22CAB817D00986173 /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
+		70DBDBB32CAB817D00986173 /* DayCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayCollectionViewCell.xib; sourceTree = "<group>"; };
+		70DBDBB62CAB82C900986173 /* WeatherHomeCollectionViewDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHomeCollectionViewDelegates.swift; sourceTree = "<group>"; };
+		7FB1564FF8A361F1D5F61909 /* Pods-BlackStoneTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackStoneTask.release.xcconfig"; path = "Target Support Files/Pods-BlackStoneTask/Pods-BlackStoneTask.release.xcconfig"; sourceTree = "<group>"; };
+		D8400458C6633C5F2B0621C4 /* Pods-BlackStoneTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackStoneTask.debug.xcconfig"; path = "Target Support Files/Pods-BlackStoneTask/Pods-BlackStoneTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +151,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2DA629CBB95EBE2029AD6F /* Pods_BlackStoneTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47E41F88B8BB1213C37E5CDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				131B1A51BCDF30EA4626100D /* Pods_BlackStoneTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58E31031882EEF313C94DD1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8400458C6633C5F2B0621C4 /* Pods-BlackStoneTask.debug.xcconfig */,
+				7FB1564FF8A361F1D5F61909 /* Pods-BlackStoneTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		70DBDB052CAB00C700986173 = {
 			isa = PBXGroup;
 			children = (
 				70DBDB102CAB00C700986173 /* BlackStoneTask */,
 				70DBDB0F2CAB00C700986173 /* Products */,
+				58E31031882EEF313C94DD1F /* Pods */,
+				47E41F88B8BB1213C37E5CDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +196,225 @@
 		70DBDB102CAB00C700986173 /* BlackStoneTask */ = {
 			isa = PBXGroup;
 			children = (
-				70DBDB112CAB00C700986173 /* AppDelegate.swift */,
-				70DBDB132CAB00C700986173 /* SceneDelegate.swift */,
-				70DBDB152CAB00C700986173 /* ViewController.swift */,
-				70DBDB172CAB00C700986173 /* Main.storyboard */,
-				70DBDB1A2CAB00C900986173 /* Assets.xcassets */,
-				70DBDB1C2CAB00C900986173 /* LaunchScreen.storyboard */,
+				70DBDB252CAB057400986173 /* Delegates */,
+				70DBDB272CAB05CB00986173 /* Supporting Files */,
+				70DBDB7E2CAB09B600986173 /* Resources */,
+				70DBDB652CAB07D400986173 /* Extenstions */,
+				70DBDB262CAB058300986173 /* StoryBoards */,
+				70DBDB622CAB061600986173 /* TableViewCell */,
+				70DBDBB12CAB813800986173 /* CollectionViewCell */,
+				70DBDB6A2CAB083900986173 /* Modules */,
+				70DBDB6C2CAB088300986173 /* Networking */,
+				70DBDB7B2CAB091F00986173 /* Model */,
 				70DBDB1F2CAB00C900986173 /* Info.plist */,
 			);
 			path = BlackStoneTask;
+			sourceTree = "<group>";
+		};
+		70DBDB252CAB057400986173 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB112CAB00C700986173 /* AppDelegate.swift */,
+				70DBDB132CAB00C700986173 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		70DBDB262CAB058300986173 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB172CAB00C700986173 /* Main.storyboard */,
+				70DBDB1C2CAB00C900986173 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		70DBDB272CAB05CB00986173 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB452CAB05E100986173 /* AlertPresenter.swift */,
+				70DBDB442CAB05E000986173 /* IQKeyboardManagerSwift */,
+				70DBDB462CAB05E100986173 /* Loading.swift */,
+				70DBDBA72CAB65A900986173 /* ErrorProtocol.swift */,
+				70DBDBAC2CAB74B400986173 /* SetStoryBoardHelper.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70DBDB2D2CAB05E000986173 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB282CAB05E000986173 /* IQNSArray+Sort.swift */,
+				70DBDB292CAB05E000986173 /* IQUIScrollView+Additions.swift */,
+				70DBDB2A2CAB05E000986173 /* IQUITextFieldView+Additions.swift */,
+				70DBDB2B2CAB05E000986173 /* IQUIView+Hierarchy.swift */,
+				70DBDB2C2CAB05E000986173 /* IQUIViewController+Additions.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		70DBDB302CAB05E000986173 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB2E2CAB05E000986173 /* IQKeyboardManagerConstants.swift */,
+				70DBDB2F2CAB05E000986173 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		70DBDB322CAB05E000986173 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB312CAB05E000986173 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		70DBDB392CAB05E000986173 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB332CAB05E000986173 /* IQBarButtonItem.swift */,
+				70DBDB342CAB05E000986173 /* IQInvocation.swift */,
+				70DBDB352CAB05E000986173 /* IQPreviousNextView.swift */,
+				70DBDB362CAB05E000986173 /* IQTitleBarButtonItem.swift */,
+				70DBDB372CAB05E000986173 /* IQToolbar.swift */,
+				70DBDB382CAB05E000986173 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		70DBDB432CAB05E000986173 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB2D2CAB05E000986173 /* Categories */,
+				70DBDB302CAB05E000986173 /* Constants */,
+				70DBDB322CAB05E000986173 /* IQTextView */,
+				70DBDB392CAB05E000986173 /* IQToolbar */,
+				70DBDB3A2CAB05E000986173 /* IQKeyboardManager.swift */,
+				70DBDB3B2CAB05E000986173 /* IQKeyboardManager+Debug.swift */,
+				70DBDB3C2CAB05E000986173 /* IQKeyboardManager+Internal.swift */,
+				70DBDB3D2CAB05E000986173 /* IQKeyboardManager+OrientationNotification.swift */,
+				70DBDB3E2CAB05E000986173 /* IQKeyboardManager+Position.swift */,
+				70DBDB3F2CAB05E000986173 /* IQKeyboardManager+Toolbar.swift */,
+				70DBDB402CAB05E000986173 /* IQKeyboardManager+UIKeyboardNotification.swift */,
+				70DBDB412CAB05E000986173 /* IQKeyboardManager+UITextFieldViewNotification.swift */,
+				70DBDB422CAB05E000986173 /* IQKeyboardReturnKeyHandler.swift */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		70DBDB442CAB05E000986173 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB432CAB05E000986173 /* IQKeyboardManagerSwift */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		70DBDB622CAB061600986173 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB602CAB061600986173 /* SearchTableViewCell.swift */,
+				70DBDB612CAB061600986173 /* SearchTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		70DBDB652CAB07D400986173 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB662CAB07E500986173 /* UITableView+Extenstions.swift */,
+				70DBDB682CAB080D00986173 /* UIView+Extenstions.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		70DBDB6A2CAB083900986173 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDBAE2CAB76E000986173 /* SplashApp */,
+				70DBDB6B2CAB085200986173 /* Weather Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		70DBDB6B2CAB085200986173 /* Weather Home */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB962CAB0AF500986173 /* WeatherHomeViewController.swift */,
+				70DBDB9F2CAB62CF00986173 /* WeatherHomeInteractor.swift */,
+				70DBDBA12CAB633200986173 /* WeatherHomeProtocols.swift */,
+				70DBDBA32CAB64DF00986173 /* WeatherHomeRouter.swift */,
+				70DBDBA52CAB652D00986173 /* WeatherHomePresenter.swift */,
+				70DBDBA92CAB66B100986173 /* WeatherHomeTableViewDelegates.swift */,
+				70DBDBB62CAB82C900986173 /* WeatherHomeCollectionViewDelegates.swift */,
+			);
+			path = "Weather Home";
+			sourceTree = "<group>";
+		};
+		70DBDB6C2CAB088300986173 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB6D2CAB089B00986173 /* BGConstants.swift */,
+				70DBDB702CAB089C00986173 /* BGDecoder.swift */,
+				70DBDB6E2CAB089C00986173 /* BGServicesManager.swift */,
+				70DBDB712CAB089C00986173 /* EndPoints.swift */,
+				70DBDB722CAB089C00986173 /* Services.swift */,
+				70DBDB6F2CAB089C00986173 /* URLRequestBuilder.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		70DBDB7B2CAB091F00986173 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB792CAB091F00986173 /* ForeCastModel.swift */,
+				70DBDB7A2CAB091F00986173 /* searchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70DBDB7E2CAB09B600986173 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB1A2CAB00C900986173 /* Assets.xcassets */,
+				70DBDB892CAB09C500986173 /* Fonts */,
+				70DBDB7F2CAB09C500986173 /* loader.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		70DBDB892CAB09C500986173 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDB802CAB09C500986173 /* SFPRODISPLAYBLACKITALIC.OTF */,
+				70DBDB812CAB09C500986173 /* SFPRODISPLAYBOLD.OTF */,
+				70DBDB822CAB09C500986173 /* SFPRODISPLAYHEAVYITALIC.OTF */,
+				70DBDB832CAB09C500986173 /* SFPRODISPLAYLIGHTITALIC.OTF */,
+				70DBDB842CAB09C500986173 /* SFPRODISPLAYMEDIUM.OTF */,
+				70DBDB852CAB09C500986173 /* SFPRODISPLAYREGULAR.OTF */,
+				70DBDB862CAB09C500986173 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */,
+				70DBDB872CAB09C500986173 /* SFPRODISPLAYTHINITALIC.OTF */,
+				70DBDB882CAB09C500986173 /* SFPRODISPLAYULTRALIGHTITALIC.OTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		70DBDBAE2CAB76E000986173 /* SplashApp */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDBAF2CAB76F800986173 /* SplashViewController.swift */,
+			);
+			path = SplashApp;
+			sourceTree = "<group>";
+		};
+		70DBDBB12CAB813800986173 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				70DBDBB22CAB817D00986173 /* DayCollectionViewCell.swift */,
+				70DBDBB32CAB817D00986173 /* DayCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +424,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70DBDB222CAB00C900986173 /* Build configuration list for PBXNativeTarget "BlackStoneTask" */;
 			buildPhases = (
+				848D52FCF08FEFAAB94E92E9 /* [CP] Check Pods Manifest.lock */,
 				70DBDB0A2CAB00C700986173 /* Sources */,
 				70DBDB0B2CAB00C700986173 /* Frameworks */,
 				70DBDB0C2CAB00C700986173 /* Resources */,
+				360FF4F8FD9EE4BF938B31CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +477,121 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70DBDB902CAB09C500986173 /* SFPRODISPLAYREGULAR.OTF in Resources */,
+				70DBDB8F2CAB09C500986173 /* SFPRODISPLAYMEDIUM.OTF in Resources */,
 				70DBDB1B2CAB00C900986173 /* Assets.xcassets in Resources */,
+				70DBDB8B2CAB09C500986173 /* SFPRODISPLAYBLACKITALIC.OTF in Resources */,
+				70DBDB922CAB09C500986173 /* SFPRODISPLAYTHINITALIC.OTF in Resources */,
+				70DBDB642CAB061600986173 /* SearchTableViewCell.xib in Resources */,
 				70DBDB1E2CAB00C900986173 /* Base in Resources */,
 				70DBDB192CAB00C700986173 /* Base in Resources */,
+				70DBDB8E2CAB09C500986173 /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */,
+				70DBDB8D2CAB09C500986173 /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */,
+				70DBDB932CAB09C500986173 /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */,
+				70DBDB8C2CAB09C500986173 /* SFPRODISPLAYBOLD.OTF in Resources */,
+				70DBDBB52CAB817D00986173 /* DayCollectionViewCell.xib in Resources */,
+				70DBDB912CAB09C500986173 /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */,
+				70DBDB8A2CAB09C500986173 /* loader.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		360FF4F8FD9EE4BF938B31CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackStoneTask/Pods-BlackStoneTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackStoneTask/Pods-BlackStoneTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackStoneTask/Pods-BlackStoneTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		848D52FCF08FEFAAB94E92E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlackStoneTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		70DBDB0A2CAB00C700986173 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70DBDB162CAB00C700986173 /* ViewController.swift in Sources */,
+				70DBDB5D2CAB05E100986173 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				70DBDB472CAB05E100986173 /* IQNSArray+Sort.swift in Sources */,
+				70DBDB992CAB0AF500986173 /* WeatherHomeViewController.swift in Sources */,
+				70DBDB4C2CAB05E100986173 /* IQKeyboardManagerConstants.swift in Sources */,
+				70DBDB572CAB05E100986173 /* IQKeyboardManager+Internal.swift in Sources */,
+				70DBDB5C2CAB05E100986173 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */,
+				70DBDB5E2CAB05E100986173 /* AlertPresenter.swift in Sources */,
+				70DBDB512CAB05E100986173 /* IQPreviousNextView.swift in Sources */,
+				70DBDB7D2CAB091F00986173 /* searchModel.swift in Sources */,
+				70DBDB492CAB05E100986173 /* IQUITextFieldView+Additions.swift in Sources */,
 				70DBDB122CAB00C700986173 /* AppDelegate.swift in Sources */,
+				70DBDB772CAB089C00986173 /* EndPoints.swift in Sources */,
+				70DBDB632CAB061600986173 /* SearchTableViewCell.swift in Sources */,
+				70DBDBA82CAB65A900986173 /* ErrorProtocol.swift in Sources */,
+				70DBDBB02CAB76F800986173 /* SplashViewController.swift in Sources */,
+				70DBDBA02CAB62CF00986173 /* WeatherHomeInteractor.swift in Sources */,
+				70DBDB7C2CAB091F00986173 /* ForeCastModel.swift in Sources */,
+				70DBDB562CAB05E100986173 /* IQKeyboardManager+Debug.swift in Sources */,
+				70DBDB5B2CAB05E100986173 /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */,
+				70DBDB552CAB05E100986173 /* IQKeyboardManager.swift in Sources */,
+				70DBDB4D2CAB05E100986173 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				70DBDB532CAB05E100986173 /* IQToolbar.swift in Sources */,
+				70DBDB582CAB05E100986173 /* IQKeyboardManager+OrientationNotification.swift in Sources */,
+				70DBDB4F2CAB05E100986173 /* IQBarButtonItem.swift in Sources */,
+				70DBDB732CAB089C00986173 /* BGConstants.swift in Sources */,
+				70DBDB542CAB05E100986173 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				70DBDB742CAB089C00986173 /* BGServicesManager.swift in Sources */,
+				70DBDB5F2CAB05E100986173 /* Loading.swift in Sources */,
+				70DBDB592CAB05E100986173 /* IQKeyboardManager+Position.swift in Sources */,
+				70DBDB762CAB089C00986173 /* BGDecoder.swift in Sources */,
+				70DBDBA22CAB633200986173 /* WeatherHomeProtocols.swift in Sources */,
+				70DBDB4A2CAB05E100986173 /* IQUIView+Hierarchy.swift in Sources */,
+				70DBDBAA2CAB66B100986173 /* WeatherHomeTableViewDelegates.swift in Sources */,
+				70DBDB522CAB05E100986173 /* IQTitleBarButtonItem.swift in Sources */,
+				70DBDBA42CAB64DF00986173 /* WeatherHomeRouter.swift in Sources */,
+				70DBDB482CAB05E100986173 /* IQUIScrollView+Additions.swift in Sources */,
+				70DBDB502CAB05E100986173 /* IQInvocation.swift in Sources */,
+				70DBDB5A2CAB05E100986173 /* IQKeyboardManager+Toolbar.swift in Sources */,
+				70DBDBB42CAB817D00986173 /* DayCollectionViewCell.swift in Sources */,
+				70DBDB692CAB080D00986173 /* UIView+Extenstions.swift in Sources */,
+				70DBDB752CAB089C00986173 /* URLRequestBuilder.swift in Sources */,
+				70DBDBAD2CAB74B400986173 /* SetStoryBoardHelper.swift in Sources */,
+				70DBDB4E2CAB05E100986173 /* IQTextView.swift in Sources */,
+				70DBDB4B2CAB05E100986173 /* IQUIViewController+Additions.swift in Sources */,
+				70DBDB782CAB089C00986173 /* Services.swift in Sources */,
+				70DBDB672CAB07E500986173 /* UITableView+Extenstions.swift in Sources */,
+				70DBDBB72CAB82C900986173 /* WeatherHomeCollectionViewDelegates.swift in Sources */,
+				70DBDBA62CAB652D00986173 /* WeatherHomePresenter.swift in Sources */,
 				70DBDB142CAB00C700986173 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,12 +739,14 @@
 		};
 		70DBDB232CAB00C900986173 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8400458C6633C5F2B0621C4 /* Pods-BlackStoneTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4ND45VU725;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlackStoneTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -307,20 +761,26 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = BlackStoneTask.com.BlackStoneTask.BlackStoneTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		70DBDB242CAB00C900986173 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FB1564FF8A361F1D5F61909 /* Pods-BlackStoneTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4ND45VU725;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlackStoneTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -335,9 +795,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = BlackStoneTask.com.BlackStoneTask.BlackStoneTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
